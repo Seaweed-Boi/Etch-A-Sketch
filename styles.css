@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    width: 960px;
+    height: 960px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.square {
+    display: flex;
+    flex: 1;
+    border: solid;
+    border-color: black;
+    margin: 1px;
+}
