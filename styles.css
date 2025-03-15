@@ -1,19 +1,23 @@
-.container {
-    display: flex;
-    width: 960px;
-    height: 960px;
-}
-
-.row {
+body {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    align-items: center;
+    font-family: Arial, sans-serif;
 }
 
-.square {
-    display: flex;
-    flex: 1;
-    border: solid;
-    border-color: black;
-    margin: 1px;
+#container {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+.grid-item {
+    border: 1px solid #ddd;
+    background-color: white;
+}
+
+.grid-item:hover {
+    background-color: black;
 }
